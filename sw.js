@@ -1,5 +1,5 @@
 // Offline support: cache the game files, and cache Google Fonts the first time they load.
-const CACHE = 'storm-cube-v1';
+const CACHE = 'storm-cube-v2';
 const FILES = ['./', './index.html', './manifest.webmanifest',
   './icons/icon-192.png', './icons/icon-512.png', './icons/icon-maskable-512.png', './icons/apple-touch-icon.png'];
 self.addEventListener('install', e => {
